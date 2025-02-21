@@ -75,9 +75,9 @@ export default function Page() {
           background: linear-gradient(
             90deg,
             transparent,
-            rgba(236, 72, 153, 0.03),
-            rgba(236, 72, 153, 0.06),
-            rgba(236, 72, 153, 0.03),
+            rgba(239, 68, 68, 0.03),
+            rgba(239, 68, 68, 0.06),
+            rgba(239, 68, 68, 0.03),
             transparent
           );
           background-size: 200% 100%;
@@ -99,9 +99,9 @@ export default function Page() {
           background: linear-gradient(
             90deg,
             transparent,
-            rgba(236, 72, 153, 0.03),
-            rgba(236, 72, 153, 0.06),
-            rgba(236, 72, 153, 0.03),
+            rgba(239, 68, 68, 0.03),
+            rgba(239, 68, 68, 0.06),
+            rgba(239, 68, 68, 0.03),
             transparent
           );
           background-size: 200% 100%;
@@ -176,7 +176,7 @@ export default function Page() {
                 className="w-36 h-36 mx-auto object-contain"
               />
             </div>
-            <div className="inline-flex items-center px-6 py-2 text-base font-medium text-purple-400 mb-8 glimmer-pill fade-in bg-purple-500/10 border border-purple-500/20 shadow-[0_0_15px_rgba(239,68,68,0.1)]">
+            <div className="inline-flex items-center px-6 py-2 text-base font-medium text-green-400 mb-8 glimmer-pill fade-in bg-red-500/10 border border-red-500/20 shadow-[0_0_15px_rgba(239,68,68,0.1)]">
               <span className={playfair.className}>Transforme Prompts em Código com IA</span>
             </div>
             <h1 className={`text-4xl md:text-5xl font-medium mb-6 tracking-tight fade-in delay-1 ${playfair.className}`}>
@@ -202,9 +202,9 @@ export default function Page() {
                         <input
                           type="text"
                           placeholder="Descreva o que você quer construir..."
-                          className="w-full px-4 py-3 bg-neutral-800 border border-neutral-700 rounded-lg text-white placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500/30"
+                          className="w-full px-4 py-3 bg-neutral-800 border border-neutral-700 rounded-lg text-white placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-red-500/20 focus:border-red-500/30"
                         />
-                        <button className="absolute right-2 top-1/2 -translate-y-1/2 p-2 bg-green-500/10 rounded-lg text-green-400 hover:bg-green-500/20 transition-colors">
+                        <button className="absolute right-2 top-1/2 -translate-y-1/2 p-2 bg-red-500/10 rounded-lg text-green-400 hover:bg-red-500/20 transition-colors border border-red-500">
                           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                             <path d="M22 2L11 13"/>
                             <path d="M22 2L15 22L11 13L2 9L22 2Z"/>
@@ -221,7 +221,7 @@ export default function Page() {
                             key={i}
                             className="flex items-center gap-3 p-4 bg-neutral-800/50 rounded-lg hover:bg-neutral-800 transition-colors text-left group"
                           >
-                            <div className="w-8 h-8 rounded-lg bg-green-500/10 text-green-400 flex items-center justify-center group-hover:bg-green-500/20 transition-colors">
+                            <div className="w-8 h-8 rounded-lg bg-red-500/10 text-green-400 flex items-center justify-center group-hover:bg-red-500/20 transition-colors border border-red-500">
                               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                                 <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
                               </svg>
@@ -250,16 +250,16 @@ export default function Page() {
 
                       {/* Status Updates */}
                       <div className="flex flex-col gap-2">
-                        <div className="self-end max-w-[85%] p-3 bg-neutral-800 rounded-lg">
+                        <div className="self-end max-w-[85%] p-3 bg-red-500/10 rounded-lg border border-red-500/20">
                           <p className="text-sm font-medium text-green-400 text-right">Arquivo gerado</p>
                         </div>
-                        <div className="self-end max-w-[85%] p-3 bg-neutral-800 rounded-lg">
+                        <div className="self-end max-w-[85%] p-3 bg-red-500/10 rounded-lg border border-red-500/20">
                           <p className="text-sm font-medium text-green-400 text-right">Arquivo gerado</p>
                         </div>
-                        <div className="self-end max-w-[85%] p-3 bg-neutral-800 rounded-lg">
+                        <div className="self-end max-w-[85%] p-3 bg-red-500/10 rounded-lg border border-red-500/20">
                           <p className="text-sm font-medium text-green-400 text-right">Arquivo gerado</p>
                         </div>
-                        <div className="self-end max-w-[85%] p-3 bg-neutral-800 rounded-lg">
+                        <div className="self-end max-w-[85%] p-3 bg-red-500/10 rounded-lg border border-red-500/20">
                           <p className="text-sm font-medium text-green-400 text-right">Arquivo gerado</p>
                         </div>
                       </div>
@@ -278,9 +278,9 @@ export default function Page() {
                         <input
                           type="text"
                           placeholder="Digite sua mensagem..."
-                          className="w-full px-4 py-3 bg-neutral-800 border border-neutral-700 rounded-lg text-white placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500/30"
+                          className="w-full px-4 py-3 bg-neutral-800 border border-neutral-700 rounded-lg text-white placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-red-500/20 focus:border-red-500/30"
                         />
-                        <button className="absolute right-2 top-1/2 -translate-y-1/2 p-2 bg-green-500/10 rounded-lg text-green-400 hover:bg-green-500/20 transition-colors">
+                        <button className="absolute right-2 top-1/2 -translate-y-1/2 p-2 bg-red-500/10 rounded-lg text-green-400 hover:bg-red-500/20 transition-colors border border-red-500">
                           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                             <path d="M22 2L11 13"/>
                             <path d="M22 2L15 22L11 13L2 9L22 2Z"/>
@@ -304,39 +304,39 @@ export default function Page() {
             </div>
 
             <div className="grid md:grid-cols-3 gap-6 relative">
-              <div className="bg-neutral-900 p-8 rounded-xl border border-neutral-800/80 hover:border-green-500/20 transition-colors scroll-animation scroll-delay-1 group">
-                <div className="w-12 h-12 rounded-xl bg-green-500/10 text-green-400 flex items-center justify-center mb-6 group-hover:bg-green-500/20 transition-colors">
+              <div className="bg-neutral-900 p-8 rounded-xl border border-neutral-800/80 hover:border-red-500/20 transition-colors scroll-animation scroll-delay-1 group">
+                <div className="w-12 h-12 rounded-xl bg-red-500/10 text-green-400 flex items-center justify-center mb-6 group-hover:bg-red-500/20 transition-colors border border-red-500">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
                     <polyline points="7 10 12 15 17 10"/>
                     <line x1="12" y1="15" x2="12" y2="3"/>
                   </svg>
                 </div>
-                <h3 className={`text-xl font-medium mb-3 group-hover:text-green-400 transition-colors ${playfair.className}`}>Baixe o Modelo</h3>
+                <h3 className={`text-xl font-medium mb-3 group-hover:text-red-400 transition-colors ${playfair.className}`}>Baixe o Modelo</h3>
                 <p className="text-neutral-400 leading-relaxed">
                   Comece com nosso modelo pronto para produção. Ele vem com tudo que você precisa para criar uma landing page incrível.
                 </p>
               </div>
 
-              <div className="bg-neutral-900 p-8 rounded-xl border border-neutral-800/80 hover:border-green-500/20 transition-colors scroll-animation scroll-delay-2 group">
-                <div className="w-12 h-12 rounded-xl bg-green-500/10 text-green-400 flex items-center justify-center mb-6 group-hover:bg-green-500/20 transition-colors">
+              <div className="bg-neutral-900 p-8 rounded-xl border border-neutral-800/80 hover:border-red-500/20 transition-colors scroll-animation scroll-delay-2 group">
+                <div className="w-12 h-12 rounded-xl bg-red-500/10 text-green-400 flex items-center justify-center mb-6 group-hover:bg-red-500/20 transition-colors border border-red-500">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4z"/>
                   </svg>
                 </div>
-                <h3 className={`text-xl font-medium mb-3 group-hover:text-green-400 transition-colors ${playfair.className}`}>Diga ao FlowDev o que Deseja</h3>
+                <h3 className={`text-xl font-medium mb-3 group-hover:text-red-400 transition-colors ${playfair.className}`}>Diga ao FlowDev o que Deseja</h3>
                 <p className="text-neutral-400 leading-relaxed">
                   Descreva sua visão em português simples. O FlowDev controlará o Cursor para transformar suas palavras em um design bonito e funcional.
                 </p>
               </div>
 
-              <div className="bg-neutral-900 p-8 rounded-xl border border-neutral-800/80 hover:border-green-500/20 transition-colors scroll-animation scroll-delay-3 group">
-                <div className="w-12 h-12 rounded-xl bg-green-500/10 text-green-400 flex items-center justify-center mb-6 group-hover:bg-green-500/20 transition-colors">
+              <div className="bg-neutral-900 p-8 rounded-xl border border-neutral-800/80 hover:border-red-500/20 transition-colors scroll-animation scroll-delay-3 group">
+                <div className="w-12 h-12 rounded-xl bg-red-500/10 text-green-400 flex items-center justify-center mb-6 group-hover:bg-red-500/20 transition-colors border border-red-500">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/>
                   </svg>
                 </div>
-                <h3 className={`text-xl font-medium mb-3 group-hover:text-green-400 transition-colors ${playfair.className}`}>Publique na Vercel</h3>
+                <h3 className={`text-xl font-medium mb-3 group-hover:text-red-400 transition-colors ${playfair.className}`}>Publique na Vercel</h3>
                 <p className="text-neutral-400 leading-relaxed">
                   Publique sua landing page na Vercel com um clique. Compartilhe sua criação com o mundo instantaneamente em uma rede global.
                 </p>
